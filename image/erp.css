@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+}    
+
+
+header {
+    width: 100%;
+    height: 50px;
+    background: #0075ca;
+    display: block;
+}
+
+#voyti {
+    color: white;
+    margin-bottom: 10px;
+    margin-left: 190px;
+    position: relative;
+}
+
+header #voyti:hover {
+    border-bottom: 1px solid white;
+}
+
+header #kontrast {
+    height: 100%;
+    width: 56px;
+    border-left: 1px solid rgba(255, 255, 255, .2);
+    border-bottom: 0;
+    border-top: 0;
+    border-right: 1px solid rgba(255, 255, 255, .2);
+    background-clip: padding-box;
+    margin-left: 10px;
+    background: #0075ca;
+    cursor: pointer;
+    color: white;
+    font-size: 120%;
+}
+
+header #kontrast:hover {
+    background: #006fbe;
+}
+
+header #nayti {
+    height: 100%;
+    width: 56px;
+    border-left: 1px solid rgba(255, 255, 255, .2);
+    border-bottom: 0;
+    border-top: 0;
+    border-right: 0;
+    background-clip: padding-box;
+    display: block;
+    background: #0075ca;
+    cursor: pointer;
+    color: white;
+    margin-left: 1080px;
+    margin-top: -50px;
+}
+
+header #nayti:hover {
+    background: #006fbe;
+}
+
+#restart {
+    margin-top: 30px;
+    margin-left: 210px;
+}
+
+#flagi {
+    margin-left: 1030px;
+    margin-top: -42px;
+}
+
+#contact {
+    margin-left: 800px;
+    margin-top: 30px
+}
+
+#mail {
+    text-decoration: underline;
+}
+
+#media {
+    margin-left: 810px;
+    margin-top: 50px;
+}
+
+#social {
+    padding: 1%;
+}
+
+nav ul li {
+    position: relative;
+    float: left;
+    padding: 20px;
+    font-size: 16px;
+    list-style-type: none;
+}
+
+nav ul li a {
+    color: #0075ca;
+    border-bottom: 1px solid rgba(0, 0, 0, .2);
+}
+
+nav ul li a:hover {
+    border-bottom: 1px solid black;
+}
+
+nav ul li ul {
+    position: absolute;
+    left: 0;
+    border-radius: 3px;
+    display: none;
+    margin-top: 21px;
+    margin-left: 10px;
+    box-shadow: 0 0 2px;
+    z-index: 100;
+    background-color: white;
+}
+
+nav ul li ul li {
+    padding: 0;
+}
+
+nav ul li ul li a {
+    display: block;
+    border-radius: 3px;
+    text-indent: 10px;
+    border-bottom: 0;
+    background-color: white;
+    line-height: 32px;
+}
+
+
+nav ul li ul li a:hover {
+    background: silver;
+    border-bottom: 0;
+}
+
+nav ul li:hover > ul {
+    display: initial;
+}
+
+#spiski {
+    margin: 20px 0 0 230px;
+}
+
+#stage1 {
+    width: 170px;
+    height: 210px;
+}
+
+#num1 {
+    width: 170px;
+    height: 35px;
+}
+
+#stage2 {
+    width: 210px;
+    height: 70px;
+}
+
+#num2 {
+    width: 210px;
+    height: 35px;
+}
+
+#stage3 {
+    width: 480px;
+    height: 245px;
+}
+
+#num3 {
+    width: 480px;
+    height: 35px;
+}
+
+#stage4 {
+    width: 350px;
+    height: 315px;
+}
+
+#num4 {
+    width: 350px;
+    height: 35px;
+}
+
+#stage5 {
+    width: 290px;
+    height: 105px;
+}
+
+#num5 {
+    width: 290px;
+    height: 35px;
+}
+
+#stage6 {
+    width: 120px;
+    height: 105px;
+}
+
+#num6 {
+    width: 120px;
+    height: 35px;
+}
+
+#block {
+    display: block;
+    width: 900px;
+    height: auto;
+    margin: 0 0 0 225px;
+}
+
+#erp {
+    font-size: 30px;
+}
+
+footer {
+    display: block;
+    width: 100%;
+    height: 300px;
+    background: #333;
+}
+
+#box {
+    display: block;
+    width: 940px;
+    height: 230px;
+}
+
+#spisokfoot {
+    display: block;
+    width: 274px;
+    height: 150px;
+    margin: 100px 0 0 -550px;
+}
+
+#spisokfoot ul {
+    margin: 0;
+    padding: 4px;
+    column-count: 2;
+    display: block;
+    text-align: left;
+    padding-top: 30px;
+}
+
+#spisokfoot ul li {
+    margin-bottom: 10px;
+    list-style-type: none;
+}
+
+#spisokfoot ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+#spisokfoot ul li a:hover {
+    border-bottom: 1px solid white;
+}
+
+#phone2 {
+    color: white;
+    margin-left: 300px;
+    margin-top: -50px;
+}
+
+#mail2 {
+    color: white;
+    text-decoration: none;
+}
+
+#mail2:hover {
+    border-bottom: 1px solid white;
+}
+
+#media2 {
+    margin: 50px 0 0 360px;
+}
+
+#social2 {
+    padding: 1%;
+}
+
+#flagi2 {
+    margin: -215px 0 0 600px;
+}
