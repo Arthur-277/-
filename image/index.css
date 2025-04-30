@@ -1,0 +1,664 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    /*list-style: none;*/
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+main {
+    width: 1350px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    display: block;
+    
+}
+
+.body {
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+    display: grid;
+    place-items: center; /* Центрирование по горизонтали и вертикали */
+}
+
+header {
+    width: 100%;
+    height: 50px;
+    background: #0075ca;
+    display: flex;
+    box-sizing: border-box;
+    padding-left: 200px;
+    padding-right: 200px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#voyti {
+    color: white;
+    position: relative;
+}
+
+#voyti:hover {
+    border-bottom: 1px solid white;
+}
+
+#kontrast {
+    height: 100%;
+    width: 56px;
+    border-left: 1px solid rgba(255, 255, 255, .2);
+    border-bottom: 0;
+    border-top: 0;
+    border-right: 1px solid rgba(255, 255, 255, .2);
+    background-clip: padding-box;
+    margin-left: 10px;
+    background: #0075ca;
+    cursor: pointer;
+    color: white;
+    font-size: 120%;
+}
+
+#kontrast:hover {
+    background: #006fbe;
+}
+
+#nayti {
+    height: 100%;
+    width: 50px;
+    border-left: 1px solid rgba(255, 255, 255, .2);
+    border-bottom: 0;
+    border-top: 0;
+    border-right: 0;
+    display: block;
+    background: #0075ca;
+    cursor: pointer;
+    color: white;
+}
+
+#nayti:hover {
+    background: #006fbe;
+}
+
+#restart {
+    margin-top: 30px;
+    margin-left: 210px;
+}
+
+#flagi {
+    margin-left: 1030px;
+    margin-top: -42px;
+}
+
+#contact {
+    margin-left: 800px;
+    margin-top: 30px
+}
+
+#mail {
+    text-decoration: underline;
+}
+
+#media {
+    margin-left: 810px;
+    margin-top: 50px;
+}
+
+#social {
+    padding: 1%;
+}
+
+#spiski nav ul li {
+    position: relative;
+    float: left;
+    padding: 20px;
+    font-size: 16px;
+    list-style-type: none;
+}
+
+#spiski nav ul li a {
+    color: #0075ca;
+    border-bottom: 1px solid rgba(0, 0, 0, .2);
+}
+
+#spiski nav ul li a:hover {
+    border-bottom: 1px solid black;
+}
+
+#spiski nav ul li ul {
+    position: absolute;
+    left: 0;
+    border-radius: 3px;
+    display: none;
+    margin-top: 21px;
+    margin-left: 10px;
+    box-shadow: 0 0 2px;
+    z-index: 100;
+    background-color: white;
+}
+
+#spiski nav ul li ul li {
+    padding: 0;
+}
+
+#spiski nav ul li ul li a {
+    display: block;
+    border-radius: 3px;
+    text-indent: 10px;
+    border-bottom: 0;
+    background-color: white;
+    line-height: 32px;
+}
+
+
+#spiski nav ul li ul li a:hover {
+    background: silver;
+    border-bottom: 0;
+}
+
+#spiski nav ul li:hover > ul {
+    display: initial;
+}
+
+#spiski {
+    margin: 20px 0 0 230px;
+}
+
+#stage1 {
+    width: 170px;
+    height: 210px;
+}
+
+#num1 {
+    width: 170px;
+    height: 35px;
+}
+
+#stage2 {
+    width: 210px;
+    height: 70px;
+}
+
+#num2 {
+    width: 210px;
+    height: 35px;
+}
+
+#stage3 {
+    width: 480px;
+    height: 245px;
+}
+
+#num3 {
+    width: 480px;
+    height: 35px;
+}
+
+#stage4 {
+    width: 350px;
+    height: 315px;
+}
+
+#num4 {
+    width: 350px;
+    height: 35px;
+}
+
+#stage5 {
+    width: 290px;
+    height: 105px;
+}
+
+#num5 {
+    width: 290px;
+    height: 35px;
+}
+
+#stage6 {
+    width: 230px;
+    height: 140px;
+}
+
+#num6 {
+    width: 230px;
+    height: 35px;
+}
+
+.swiper {
+    width: 900px;
+    height: 280px;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+}
+
+#silka1 {
+    display: block;
+    border-radius: 3px;
+    font-size: large;
+    background: #0075ca;
+}
+
+#product {
+    margin-left: 233px;
+    color: #0075ca;
+}
+
+#hrone {
+    width: 875px;
+}
+
+#imgs {
+    max-width: 819px;
+    max-height: 226px;
+}
+#imgs {
+    padding-bottom: 42px;
+}
+ 
+#h {
+    color: black;
+    font-size: x-large;
+    padding-bottom: 75px;
+}
+
+#hk{
+    font-size: 30px;
+    padding-left: 233px;
+}
+ 
+h4 {
+    text-align: left;
+    padding-left: 258px;
+    padding-top: 30px;
+}
+
+h3 {
+    padding-right: 445px;
+    padding-top: 50px;
+}
+
+#kompani {
+    font-size: 30px;
+    padding-left: 260px;
+}
+
+#nasha {
+    margin: 10px 0 0 265px;
+}
+
+.nam {
+    display: block;
+    width: 940px;
+    height: 130px;
+    margin-left: 256px;
+}
+
+.nam nav ul {
+    margin: 0;
+    padding: 4px;
+    column-count: 2;
+}
+
+.nam nav ul li {
+    display: inline;
+    margin-right: 5px; 
+    padding: 3px;
+}
+
+#est {
+    margin-left: 265px;
+}
+
+#napishite {
+    color: blue;
+}
+
+#napishite:hover {
+    text-decoration: underline;
+}
+
+#nomer {
+    color: black;
+    font-size: 1.5em;
+}
+
+footer {
+    display: block;
+    width: 100%;
+    height: 400px;
+    background: #333;
+    position: initial;
+    
+
+}
+
+#box {
+    display: block;
+    width: 940px;
+    height: 230px;
+}
+
+#spisokfoot {
+    display: block;
+    width: 274px;
+    height: 150px;
+    margin: 100px 0 0 -550px;
+}
+
+#spisokfoot ul {
+    margin: 0;
+    padding: 4px;
+    column-count: 2;
+    display: block;
+    text-align: left;
+    padding-top: 30px;
+}
+
+#spisokfoot ul li {
+    margin-bottom: 10px;
+    list-style-type: none;
+}
+
+#spisokfoot ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+#spisokfoot ul li a:hover {
+    border-bottom: 1px solid white;
+}
+
+#phone2 {
+    color: white;
+    margin-left: 300px;
+    margin-top: -50px;
+}
+
+#mail2 {
+    color: white;
+    text-decoration: none;
+}
+
+#mail2:hover {
+    border-bottom: 1px solid white;
+}
+
+#media2 {
+    margin: 50px 0 0 360px;
+}
+
+#social2 {
+    padding: 1%;
+}
+
+#flagi2 {
+    margin: -215px 0 0 600px;
+}
+
+.search-button {
+    height: 49px;
+    width: 56px;
+    border-left: 1px solid rgba(255, 255, 255, .2);
+    border-bottom: 0;
+    border-top: 0;
+    border-right: 0;
+    background: #0075ca;
+    cursor: pointer;
+    color: white;
+    font-size: 120%;
+    position: relative;
+    box-sizing: border-box;
+    margin-left: auto;
+}
+
+.search-button:hover {
+    background: #006fbe;
+}
+
+.cancel-button {
+    height: 100%;
+    width: 50px;
+    border-left: 0;
+    border-bottom: 0;
+    border-top: 0;
+    border-right: 0;
+    background-clip: padding-box;
+    display: block;
+    background: #0075ca;
+    cursor: pointer;
+    color: white;
+    margin-left: 1080px;
+    margin-top: -45px;
+}
+
+.search-input {
+  width: 0;
+  height: 50px;
+  padding: 0;
+  border: none;
+  outline: none;
+  background: #0075ca;
+  color: white;
+  position: absolute;
+}
+
+.search-container.open .search-input {
+  width: 950px;
+  padding: 0 10px;
+  margin-top: -50px;
+  right: 0;
+}
+
+.cancel-button {
+  display: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 40px;
+  height: 40px;
+  background: #0075ca;
+  color: white;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.search-container.open .cancel-button {
+  display: block;
+}
+
+#os {
+    background: transparent;
+    border: 0;
+    font-size: 16px;
+    color: blue;
+    cursor: pointer;
+}
+
+#os:hover {
+    text-decoration: underline;
+}
+
+.options {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    margin-left: 15%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.16);
+    z-index: 400;
+    display: none;
+}
+
+.hide {
+    display: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    margin-left: 15%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.16);
+    z-index: 400;
+}
+
+.options li {
+  background: white;
+  list-style: none;
+  margin: 0;
+  text-transform: capitalize;
+}
+
+.options li a {
+    display: block;
+    padding: 18px;
+}
+
+.options li a:hover {
+    background: silver;
+}
+
+.hide {
+    display: none;
+}
+
+.asidemenu {
+    position: relative;
+    width: 50px;
+    height: 64px;
+    border: none;
+    border-right: 1px solid rgba(255, 255, 255, .2);
+    background: #0075ca;
+    top: -15px;
+    display: none;
+}
+
+.asidemenu:hover {
+    background: #006fbe;
+}
+
+.asidemenu span {
+    position: absolute;
+    width: 30px;
+    height: 3px;
+    background: white;
+    left: 9px;
+}
+
+.asidemenu span:nth-child(1) {
+    transform: translateY(-8px);
+}
+
+.asidemenu span:nth-child(2) {
+    transform: translateY(5px);
+}
+
+.asidemenu span:nth-child(3) {
+    transform: translateY(18px);
+}
+
+#forum {
+    display: block;
+    color: white;
+    background: #0075ca;
+    width: 850px;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+#forum:hover {
+    background: #006fbe;
+}
+
+#spiskimobile {
+    display: none;
+}
+
+#box {
+    
+}
+
+@media (max-width: 900px) {
+
+    .body::after {
+        background-size: cover;
+        background-position: center;
+        margin: 0 auto;
+        
+    }
+
+    .asidemenu {
+        display: block;
+        position: absolute;
+        left: 0;
+    }
+
+    #spiski {
+        display: none;
+    }
+
+    #voyti {
+        display: none;
+    }
+
+    #kontrast {
+        top: 0;
+        position: absolute;
+        height: 50px;
+        left: 39;
+    }
+
+    header {
+        width: 100%;
+        height: 50px;
+        background: #0075ca;
+        display: flex;
+        position: static;
+        justify-content: space-between;
+        padding-right: 0;
+    }
+
+    #spiskimobile {
+        display: inherit;
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 300px;
+        z-index: 100;
+    }
+
+    #spiskimobile nav ul {
+        height: 100%;
+        background: white;
+    }
+
+    #spiskimobile nav ul li button {
+        border-bottom: 1px solid silver;
+        background: white;
+        z-index: 100;
+        border-top: 0;
+        border-left: 0;
+        border-right: 0;
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+        padding: 10px;
+    }
+
+    #mobile {
+        display: block;
+        padding: 10px;
+        border-bottom: 1px solid black;
+        background: white;
+    }
+
+    #spiskimobile nav ul li ul {
+        display: none;
+    }
+
+    #spiskimobile nav ul li:hover > ul {
+        display: initial;
+    }

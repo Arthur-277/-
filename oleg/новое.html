@@ -1,0 +1,171 @@
+<!-- <!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Пример меню</title>
+  <style>
+    nav {
+      background-color: #333;
+    }
+
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+    }
+
+    nav li {
+      margin: 0;
+    }
+
+    nav a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 20px;
+      text-decoration: none;
+    }
+
+    nav a:hover {
+      background-color: #575757;
+    }
+    /* Общие стили */
+#spiski {
+  font-family: Arial, sans-serif;
+  background-color: #2c3e50;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #2c3e50;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+nav ul li {
+  position: relative;
+}
+
+nav > ul > li {
+  flex: none;
+}
+
+nav a {
+  display: block;
+  padding: 15px 20px;
+  color: white;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+
+nav a:hover {
+  background-color: #34495e;
+}
+
+/* Стили для вложенных списков (выпадающее меню) */
+nav ul ul {
+  display: none;
+  position: absolute;
+  background-color: #34495e;
+  top: 100%;
+  left: 0;
+  z-index: 999;
+  min-width: 7px;
+  box-shadow: 0 4px 7px rgba(0,0,0,0.2);
+}
+
+nav ul ul li {
+  width: 100%;
+}
+
+nav ul ul a {
+  padding: 12px 7px;
+  color: #ecf0f1;
+}
+
+nav ul li:hover > ul {
+  display: block;
+}
+
+/* Подсветка активного элемента (опционально) */
+nav a.active {
+  background-color: #1abc9c;
+}
+
+    
+  </style>
+</head>
+<body>
+
+    <div id="spiski">
+        <nav>
+            <ul>
+                <li><a href="ru/onas.html">О нас</a>
+
+                    <ul id="stage1">
+                        <li><a href="ru/onas.html" id="num1">О нас</a></li>
+                        <li><a href="ru/novosti.html" id="num1">Новости</a></li>
+                        <li><a href="ru/nashipartnyori.html" id="num1">Наши партнёры</a></li>
+                        <li><a href="ru/vakansii.html" id="num1">Вакансии</a></li>
+                        <li><a href="ru/fotogalereya.html" id="num1">Фотогалерея</a></li>
+                        <li><a href="ru/dokumentooborot.html" id="num1">Документооборот</a></li>
+                    </ul>
+                </li>
+                <li><a href="ru/nashiklienti.html">Наш опыт</a>
+                    <ul id="stage2">
+                        <li><a href="ru/nashiklienti.html" id="num2">Наши клиенты</a></li>
+                        <li><a href="ru/vnedrenniye.html" id="num2">Внедрённые решения</a></li>
+                    </ul>
+                </li>
+                <li><a href="ru/nashiuslugi.html">Наши услуги</a>
+                    <ul id="stage3">
+                        <li><a href="ru/nashiuslugi.html" id="num3">Наши услуги</a></li>
+                        <li><a href="ru/soprovojdeniye.html" id="num3">Сопровождения 1С (ИТС)</a></li>
+                        <li><a href="ru/konsultaciya.html" id="num3">Консультации по выбору программного
+                                обеспечения</a></li>
+                        <li><a href="ru/dostavka.html" id="num3">Доставка и установка</a></li>
+                        <li><a href="ru/nastroyka.html" id="num3">Настройка и внедрение</a></li>
+                        <li><a href="ru/stoimost.html" id="num3">Стоимость</a></li>
+                        <li><a href="ru/skidki.html" id="num3">Скидки и спец. предложения</a></li>
+                    </ul>
+                </li>
+                <li><a href="ru/produkti.html">Продукты 1С</a>
+                    <ul id="stage4">
+                        <li><a href="ru/produkti.html" id="num4">Продукты 1С</a></li>
+                        <li><a href="ru/produktibitriks.html" id="num4">Продукты 1С-Битрикс</a></li>
+                        <li><a href="ru/erp.html" id="num4">1C:ERP/1C:ERP по отраслям</a></li>
+                        <li><a href="ru/holding.html" id="num4">1С:Управление холдингом</a></li>
+                        <li><a href="ru/kompleks.html" id="num4">1С:Комплексная автоматизация</a></li>
+                        <li><a href="ru/buhgalteriya.html" id="num4">1С:Бухгалтерия</a></li>
+                        <li><a href="ru/zarplata.html" id="num4">1С:Зарплата и Управление персоналом</a></li>
+                        <li><a href="ru/torgovla.html" id="num4">1С:Управление торговлей</a></li>
+                        <li><a href="ru/roznica.html" id="num4">1С:Розница</a></li>
+                    </ul>
+                </li>
+                <li><a href="ru/obucheniye.html">Обучение</a>
+                    <ul id="stage5">
+                        <li><a href="ru/obucheniye.html" id="num5">Учебный центр</a></li>
+                        <li><a href="ru/kursi.html" id="num5">Обучающие курсы</a></li>
+                        <li><a href="ru/zayavka.html" id="num5">Онлайн-заявка записи на курсы</a></li>
+                    </ul>
+                </li>
+                <li><a href="ru/materiali.html">Материалы</a>
+                    <ul id="stage6">
+                        <li><a href="ru/materiali.html" id="num6">Видео</a></li>
+                        <li><a href="ru/stati.html" id="num6">Статьи</a></li>
+                        <li><a href="ru/texnologii.html" id="num6">Технологии</a></li>
+                        <li><a href="ru/obzory.html" id="num6">Обзоры</a></li>
+                        <li><a href="ru/sxemi.html" id="num6">Схемы</a></li>
+                        <li><a href="1cgroupAyan/index.html" id="num6">Человеческим ресурсы</a></li>
+                    </ul>
+                </li>
+                <li><a href="ru/kontakti.html">Контакты</a></li>
+            </ul>
+        </nav>
+    </div>
+
+</body>
+</html> -->
